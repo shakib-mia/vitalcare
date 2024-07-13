@@ -15,6 +15,7 @@ export default {
     colors: {
       primary: "#0067FF",
       button: "#00A3FF",
+      black: "#000000",
       white: "#FFFFFF",
       dark: "#333333",
       gray: {

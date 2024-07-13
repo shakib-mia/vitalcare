@@ -25,10 +25,26 @@ h4 {
   @apply text-base md:text-lg lg:text-xl font-poppins;
 }
 
+h5 {
+  @apply text-sm md:text-md lg:text-lg font-poppins;
+}
+
 #navbar {
   @apply h-0 py-0 lg:h-full lg:justify-center overflow-hidden transition-[height];
 }
 
 #nav-check:checked ~ #navbar {
   @apply h-[13rem] lg:h-full;
+}
+
+::-webkit-scrollbar {
+  @apply w-0;
+}
+
+#video-check:checked + #video {
+  @apply opacity-100 pointer-events-auto;
+}
+
+#video-check:checked + #video iframe {
+  @apply scale-100;
 }

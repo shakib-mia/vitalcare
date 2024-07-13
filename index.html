@@ -5,6 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="./assets/logo.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VitalCare - Experience Excellence in Medicine</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./style.css" />
   </head>
 
@@ -65,8 +66,11 @@
       </div>
     </div>
 
-    <nav class="container py-4 lg:py-5 relative">
-      <div class="bg-white flex justify-between text-primary items-center">
+    <!-- <nav class="container py-4 lg:py-5 relative bg-white">
+      <div
+        class="bg-white flex justify-between text-primary items-center sticky"
+        id="nav-container"
+      >
         <a href="#" class="flex gap-1 items-center">
           <img src="./assets/logo.webp" class="w-8 h-8" alt="logo" />
           <h4 class="font-extrabold text-primary">VitalCare</h4>
@@ -123,16 +127,232 @@
           ></div>
         </button>
       </div>
+    </nav> -->
+
+    <nav
+      class="sticky z-[9999999999] bg-white text-primary shadow-[0_0_80px_0_#2B245D21]"
+      id="navbar-container"
+    >
+      <div class="relative">
+        <div class="container flex items-center justify-between py-6">
+          <a href="#" class="flex items-center gap-2">
+            <img
+              src="./assets/logo.webp"
+              alt="logo"
+              class="aspect-square w-7"
+            />
+            <h4 class="font-extrabold text-primary">VitalCare</h4>
+          </a>
+
+          <label for="nav-check" class="lg:hidden">
+            <i class="fa fa-bars"></i>
+          </label>
+          <input type="checkbox" class="hidden" id="nav-check" />
+          <ul
+            class="flex flex-col lg:flex-row gap-4 lg:gap-12 font-poppins font-medium absolute lg:static bg-white top-16 w-full left-0 px-4 py-3 lg:px-0 lg:py-0 lg:bg-transparent lg:w-fit"
+            id="navbar"
+          >
+            <li class="group">
+              <a href="#">Home</a>
+              <div
+                class="h-[1.3px] group-hover:w-full transition-[width] duration-150 bg-primary w-0 group-hover:ml-0 ml-auto"
+              ></div>
+            </li>
+            <li class="group">
+              <a href="#">About</a>
+              <div
+                class="h-[1.3px] group-hover:w-full transition-[width] duration-150 bg-primary w-0 group-hover:ml-0 ml-auto"
+              ></div>
+            </li>
+            <li class="group">
+              <a href="#">Services</a>
+              <div
+                class="h-[1.3px] group-hover:w-full transition-[width] duration-150 bg-primary w-0 group-hover:ml-0 ml-auto"
+              ></div>
+            </li>
+            <li class="group">
+              <a href="#">Blog</a>
+              <div
+                class="h-[1.3px] group-hover:w-full transition-[width] duration-150 bg-primary w-0 group-hover:ml-0 ml-auto"
+              ></div>
+            </li>
+            <li class="group">
+              <a href="#">Testimonials</a>
+              <div
+                class="h-[1.3px] group-hover:w-full transition-[width] duration-150 bg-primary w-0 group-hover:ml-0 ml-auto"
+              ></div>
+            </li>
+          </ul>
+
+          <button
+            class="bg-transparent border-2 border-primary px-7 py-3 transition duration-300 rounded hidden lg:block relative group hover:text-white w-36 h-14 overflow-hidden"
+          >
+            <span
+              class="z-10 absolute left-0 right-0 top-0 bottom-0 m-auto inline-flex justify-center items-center"
+              >Book Online</span
+            >
+            <div
+              class="absolute h-full w-0 group-hover:w-40 trnasition duration-300 bg-primary left-0 top-0 transition-[width] z-0 rounded-r-full"
+            ></div>
+          </button>
+        </div>
+      </div>
     </nav>
 
     <header
-      class="h-screen bg-gradient-to-r from-primary to-transparent"
-    ></header>
+      class="h-screen bg-cover bg-no-repeat relative"
+      style="background-image: url(./assets/herobg.png)"
+    >
+      <div
+        class="h-full bg-gradient-to-r from-primary to-transparent flex items-center text-white"
+      >
+        <div class="container">
+          <div class="lg:w-8/12">
+            <h1
+              class="font-bold"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              Experience Excellence in Medicine
+            </h1>
+
+            <p
+              class="mt-8 mb-12"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            >
+              Welcome to our healthcare sanctuary, where your well-being takes
+              center stage. Our dedicated team of medical experts is committed
+              to providing exceptional care tailored to your needs. From
+              preventive medicine to specialized treatments, we prioritize your
+              health journey.
+            </p>
+
+            <div class="flex gap-12 items-center">
+              <button
+                class="bg-white text-primary border-2 border-primary px-7 py-3 transition duration-300 rounded relative group hover:text-white w-36 h-14 overflow-hidden"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
+                <span
+                  class="z-10 absolute left-0 right-0 top-0 bottom-0 m-auto inline-flex justify-center items-center"
+                  >Read More</span
+                >
+                <div
+                  class="absolute h-full w-0 group-hover:w-40 trnasition duration-300 bg-primary left-0 top-0 transition-[width] z-0 rounded-r-full"
+                ></div>
+              </button>
+
+              <label
+                class="flex gap-4 items-center font-semibold cursor-pointer"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="300"
+                for="video-check"
+              >
+                <div
+                  class="w-8 h-8 bg-white flex items-center justify-center text-primary rounded-full"
+                >
+                  <i class="fa fa-play text-xs"></i>
+                </div>
+                Learn More
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="relative container p-4">
+      <div
+        class="bg-white lg:p-14 static lg:absolute shadow-[0_3px_32px_0_#0067FF1A] -top-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
+      >
+        <aside
+          class="text-dark flex gap-6"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+        >
+          <img src="./assets/services-small/ecg.svg" alt="" />
+          <aside>
+            <h5 class="text-dark font-medium">Chronic Disease</h5>
+            <p class="text-gray-dark">
+              Personalized plans and continuous monitoring
+            </p>
+          </aside>
+        </aside>
+
+        <aside
+          class="text-dark flex gap-6"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
+          <img src="./assets/services-small/fluid.svg" alt="" />
+          <aside>
+            <h5 class="text-dark font-medium">Chronic Disease</h5>
+            <p class="text-gray-dark">
+              Personalized plans and continuous monitoring
+            </p>
+          </aside>
+        </aside>
+
+        <aside
+          class="text-dark flex gap-6"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+        >
+          <img src="./assets/services-small/home_health.svg" alt="" />
+          <aside>
+            <h5 class="text-dark font-medium">Chronic Disease</h5>
+            <p class="text-gray-dark">
+              Personalized plans and continuous monitoring
+            </p>
+          </aside>
+        </aside>
+      </div>
+    </div>
+
+    <input class="hidden" type="checkbox" id="video-check" />
+
+    <div
+      class="h-screen w-screen bg-black bg-opacity-50 fixed left-0 top-0 z-[99999999999] flex justify-center items-center opacity-0 pointer-events-none transition delay-200 duration-1000"
+      id="video"
+    >
+      <div
+        class="w-11/12 lg:w-1/2 aspect-[16/9] relative shadow-[0_0_3rem_#333] rounded-md"
+      >
+        <label
+          for="video-check"
+          class="absolute right-0 -top-14 lg:-right-10 lg:-top-12 cursor-pointer text-3xl text-white"
+        >
+          <i class="fa fa-times"></i>
+        </label>
+        <iframe
+          class="h-full w-full rounded-md"
+          src="https://www.youtube.com/embed/xcJtL7QggTI?si=YN9q7bMgyNle6d7Z"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <!-- About us Section -->
+
+    <section></section>
 
     <script
       src="https://kit.fontawesome.com/b50fc748ca.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/lenis@1.1.5/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
