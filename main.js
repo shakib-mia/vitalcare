@@ -3,7 +3,7 @@ AOS.init();
 const lenis = new Lenis();
 
 lenis.on("scroll", (e) => {
-  console.log(e);
+  // console.log(e);
 });
 
 function raf(time) {
@@ -67,3 +67,48 @@ const handleVideo = (checked) => {
 document
   .getElementById("video-check")
   .addEventListener("change", (e) => handleVideo(e.target.checked));
+
+// Example checkIsInViewport function for testing
+function checkIsInViewport(selector, callback) {
+  const element = document.querySelector(selector);
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      callback(entry.isIntersecting);
+    });
+  });
+  observer.observe(element);
+}
+
+// Define an object to keep track of timer state for each element
+const timerState = {
+  value1: { timer: null, seconds: 0 },
+  value2: { timer: null, seconds: 0 },
+};
+
+function startTimer(target, id, interval) {
+  if (timerState[id].timer) {
+    clearInterval(timerState[id].timer);
+  }
+  timerState[id].seconds = 0;
+  timerState[id].timer = setInterval(() => {
+    if (timerState[id].seconds < target) {
+      timerState[id].seconds++;
+      document.getElementById(id).innerText =
+        timerState[id].seconds > 0 ? timerState[id].seconds : 0;
+    } else {
+      clearInterval(timerState[id].timer);
+    }
+  }, interval);
+}
+
+checkIsInViewport("#value1", (isInViewPort) => {
+  if (isInViewPort) {
+    startTimer(25, "value2", 100);
+    startTimer(573, "value1", 0.000001);
+  } else {
+    clearInterval(timerState.value1.timer);
+    clearInterval(timerState.value2.timer);
+    document.getElementById("value1").innerText = 0;
+    document.getElementById("value2").innerText = 0;
+  }
+});
