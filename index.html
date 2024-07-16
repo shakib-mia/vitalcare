@@ -15,1081 +15,1275 @@
   </head>
 
   <body>
-    <div class="bg-primary py-3 text-white">
-      <div class="container">
-        <div class="flex items-center justify-center lg:justify-between">
-          <div class="flex items-center gap-2 lg:gap-6">
-            <div class="flex items-center gap-2">
-              <i class="fa fa-envelope-open"></i>
-              <a href="mailto:support@raddito.com" class="font-poppins text-sm"
-                >support@raddito.com</a
-              >
+    <div class="w-screen overflow-x-hidden">
+      <div class="bg-primary py-3 text-white">
+        <div class="container">
+          <div class="flex items-center justify-center lg:justify-between">
+            <div class="flex items-center gap-2 lg:gap-6">
+              <div class="flex items-center gap-2">
+                <i class="fa fa-envelope-open"></i>
+                <a
+                  href="mailto:support@raddito.com"
+                  class="font-poppins text-sm"
+                  >support@raddito.com</a
+                >
+              </div>
+
+              <div class="flex items-center gap-2">
+                <i class="fa fa-phone rotate-90"></i>
+                <a href="callto:+833-900-8338" class="font-poppins text-sm">
+                  +833-900-8338</a
+                >
+              </div>
             </div>
 
-            <div class="flex items-center gap-2">
-              <i class="fa fa-phone rotate-90"></i>
-              <a href="callto:+833-900-8338" class="font-poppins text-sm">
-                +833-900-8338</a
-              >
-            </div>
+            <ul
+              class="hidden items-center divide-x divide-white text-base lg:flex"
+            >
+              <li class="px-3">Follow Us</li>
+              <li class="flex items-center px-3">
+                <a href="#">
+                  <i
+                    class="fab fa-facebook hover:text-secondary text-base transition"
+                  ></i>
+                </a>
+              </li>
+              <li class="flex items-center px-3">
+                <a href="#">
+                  <i
+                    class="fab fa-twitter hover:text-secondary text-base transition"
+                  ></i>
+                </a>
+              </li>
+              <li class="flex items-center px-3">
+                <a href="#">
+                  <i
+                    class="fab fa-instagram hover:text-secondary text-base transition"
+                  ></i>
+                </a>
+              </li>
+              <li class="flex items-center px-3">
+                <a href="#">
+                  <i
+                    class="fab fa-linkedin hover:text-secondary text-base transition"
+                  ></i>
+                </a>
+              </li>
+            </ul>
           </div>
-
-          <ul
-            class="hidden items-center divide-x divide-white text-base lg:flex"
-          >
-            <li class="px-3">Follow Us</li>
-            <li class="flex items-center px-3">
-              <a href="#">
-                <i
-                  class="fab fa-facebook hover:text-secondary text-base transition"
-                ></i>
-              </a>
-            </li>
-            <li class="flex items-center px-3">
-              <a href="#">
-                <i
-                  class="fab fa-twitter hover:text-secondary text-base transition"
-                ></i>
-              </a>
-            </li>
-            <li class="flex items-center px-3">
-              <a href="#">
-                <i
-                  class="fab fa-instagram hover:text-secondary text-base transition"
-                ></i>
-              </a>
-            </li>
-            <li class="flex items-center px-3">
-              <a href="#">
-                <i
-                  class="fab fa-linkedin hover:text-secondary text-base transition"
-                ></i>
-              </a>
-            </li>
-          </ul>
         </div>
       </div>
-    </div>
 
-    <!-- <nav class="container py-4 lg:py-5 relative bg-white">
-      <div
-        class="bg-white flex justify-between text-primary items-center sticky"
-        id="nav-container"
-      >
-        <a href="#" class="flex gap-1 items-center">
-          <img src="./assets/logo.webp" class="w-8 h-8" alt="logo" />
-          <h4 class="font-extrabold text-primary">VitalCare</h4>
-        </a>
-        <label for="nav-check" class="lg:hidden">
-          <i class="fa fa-bars"></i>
-        </label>
-        <input type="checkbox" class="hidden" id="nav-check" />
-        <ul
-          class="flex flex-col lg:flex-row gap-4 lg:gap-12 font-poppins font-medium absolute lg:static bg-white top-16 w-full left-0 px-4 py-3 lg:px-0 lg:py-0 lg:bg-transparent lg:w-fit"
-          id="navbar"
+      <!-- <nav class="container py-4 lg:py-5 relative bg-white">
+        <div
+          class="bg-white flex justify-between text-primary items-center sticky"
+          id="nav-container"
         >
-          <li class="group">
-            <a href="#">Home</a>
-            <div
-              class="h-[1.3px] group-hover:w-full transition-[width] duration-150 bg-primary w-0 group-hover:ml-0 ml-auto"
-            ></div>
-          </li>
-          <li class="group">
-            <a href="#">About</a>
-            <div
-              class="h-[1.3px] group-hover:w-full transition-[width] duration-150 bg-primary w-0 group-hover:ml-0 ml-auto"
-            ></div>
-          </li>
-          <li class="group">
-            <a href="#">Services</a>
-            <div
-              class="h-[1.3px] group-hover:w-full transition-[width] duration-150 bg-primary w-0 group-hover:ml-0 ml-auto"
-            ></div>
-          </li>
-          <li class="group">
-            <a href="#">Blog</a>
-            <div
-              class="h-[1.3px] group-hover:w-full transition-[width] duration-150 bg-primary w-0 group-hover:ml-0 ml-auto"
-            ></div>
-          </li>
-          <li class="group">
-            <a href="#">Testimonials</a>
-            <div
-              class="h-[1.3px] group-hover:w-full transition-[width] duration-150 bg-primary w-0 group-hover:ml-0 ml-auto"
-            ></div>
-          </li>
-        </ul>
-
-        <button
-          class="bg-transparent border-2 border-primary px-7 py-3 transition duration-300 rounded hidden lg:block relative group hover:text-white w-36 h-14 overflow-hidden"
-        >
-          <span
-            class="z-10 absolute left-0 right-0 top-0 bottom-0 m-auto inline-flex justify-center items-center"
-            >Book Online</span
-          >
-          <div
-            class="absolute h-full w-0 group-hover:w-40 trnasition duration-300 bg-primary left-0 top-0 transition-[width] z-0 rounded-r-full"
-          ></div>
-        </button>
-      </div>
-    </nav> -->
-
-    <nav
-      class="sticky z-[9999999999] bg-white text-primary shadow-[0_0_80px_0_#2B245D21]"
-      id="navbar-container"
-    >
-      <div class="relative">
-        <div class="container flex items-center justify-between py-6">
-          <a href="#" class="flex items-center gap-2">
-            <img
-              src="./assets/logo.webp"
-              alt="logo"
-              class="aspect-square w-7"
-            />
+          <a href="#" class="flex gap-1 items-center">
+            <img src="./assets/logo.webp" class="w-8 h-8" alt="logo" />
             <h4 class="font-extrabold text-primary">VitalCare</h4>
           </a>
-
           <label for="nav-check" class="lg:hidden">
             <i class="fa fa-bars"></i>
           </label>
           <input type="checkbox" class="hidden" id="nav-check" />
           <ul
-            class="absolute left-0 top-16 flex w-full flex-col gap-4 bg-white px-4 py-3 font-poppins font-medium lg:static lg:w-fit lg:flex-row lg:gap-12 lg:bg-transparent lg:px-0 lg:py-0"
+            class="flex flex-col lg:flex-row gap-4 lg:gap-12 font-poppins font-medium absolute lg:static bg-white top-16 w-full left-0 px-4 py-3 lg:px-0 lg:py-0 lg:bg-transparent lg:w-fit"
             id="navbar"
           >
             <li class="group">
               <a href="#">Home</a>
               <div
-                class="ml-auto h-[1.3px] w-0 bg-primary transition-[width] duration-150 group-hover:ml-0 group-hover:w-full"
+                class="h-[1.3px] group-hover:w-full transition-[width] duration-150 bg-primary w-0 group-hover:ml-0 ml-auto"
               ></div>
             </li>
             <li class="group">
               <a href="#">About</a>
               <div
-                class="ml-auto h-[1.3px] w-0 bg-primary transition-[width] duration-150 group-hover:ml-0 group-hover:w-full"
+                class="h-[1.3px] group-hover:w-full transition-[width] duration-150 bg-primary w-0 group-hover:ml-0 ml-auto"
               ></div>
             </li>
             <li class="group">
               <a href="#">Services</a>
               <div
-                class="ml-auto h-[1.3px] w-0 bg-primary transition-[width] duration-150 group-hover:ml-0 group-hover:w-full"
+                class="h-[1.3px] group-hover:w-full transition-[width] duration-150 bg-primary w-0 group-hover:ml-0 ml-auto"
               ></div>
             </li>
             <li class="group">
               <a href="#">Blog</a>
               <div
-                class="ml-auto h-[1.3px] w-0 bg-primary transition-[width] duration-150 group-hover:ml-0 group-hover:w-full"
+                class="h-[1.3px] group-hover:w-full transition-[width] duration-150 bg-primary w-0 group-hover:ml-0 ml-auto"
               ></div>
             </li>
             <li class="group">
               <a href="#">Testimonials</a>
               <div
-                class="ml-auto h-[1.3px] w-0 bg-primary transition-[width] duration-150 group-hover:ml-0 group-hover:w-full"
+                class="h-[1.3px] group-hover:w-full transition-[width] duration-150 bg-primary w-0 group-hover:ml-0 ml-auto"
               ></div>
             </li>
           </ul>
-
+  
           <button
-            class="group relative hidden h-14 w-36 overflow-hidden rounded border-2 border-primary bg-transparent px-7 py-3 transition duration-300 hover:text-white lg:block"
+            class="bg-transparent border-2 border-primary px-7 py-3 transition duration-300 rounded hidden lg:block relative group hover:text-white w-36 h-14 overflow-hidden"
           >
             <span
-              class="absolute bottom-0 left-0 right-0 top-0 z-10 m-auto inline-flex items-center justify-center"
+              class="z-10 absolute left-0 right-0 top-0 bottom-0 m-auto inline-flex justify-center items-center"
               >Book Online</span
             >
             <div
-              class="trnasition absolute left-0 top-0 z-0 h-full w-0 rounded-r-full bg-primary transition-[width] duration-300 group-hover:w-40"
+              class="absolute h-full w-0 group-hover:w-40 trnasition duration-300 bg-primary left-0 top-0 transition-[width] z-0 rounded-r-full"
             ></div>
           </button>
         </div>
-      </div>
-    </nav>
+      </nav> -->
 
-    <header
-      class="relative h-screen bg-cover bg-no-repeat"
-      style="background-image: url(./assets/herobg.png)"
-    >
-      <div
-        class="flex h-full items-center bg-gradient-to-r from-primary to-transparent text-white"
+      <nav
+        class="sticky z-[9999999999] bg-white text-primary shadow-[0_0_80px_0_#2B245D21]"
+        id="navbar-container"
       >
-        <div class="container">
-          <div class="lg:w-8/12">
-            <h1
-              class="font-bold"
+        <div class="relative">
+          <div class="container flex items-center justify-between py-6">
+            <a href="#" class="flex items-center gap-2">
+              <img
+                src="./assets/logo.webp"
+                alt="logo"
+                class="aspect-square w-7"
+              />
+              <h4 class="font-extrabold text-primary">VitalCare</h4>
+            </a>
+
+            <label for="nav-check" class="lg:hidden">
+              <i class="fa fa-bars"></i>
+            </label>
+            <input type="checkbox" class="hidden" id="nav-check" />
+            <ul
+              class="absolute left-0 top-16 flex w-full flex-col gap-4 bg-white px-4 py-3 font-poppins font-medium lg:static lg:w-fit lg:flex-row lg:gap-12 lg:bg-transparent lg:px-0 lg:py-0"
+              id="navbar"
+            >
+              <li class="group">
+                <a href="#">Home</a>
+                <div
+                  class="ml-auto h-[1.3px] w-0 bg-primary transition-[width] duration-150 group-hover:ml-0 group-hover:w-full"
+                ></div>
+              </li>
+              <li class="group">
+                <a href="#">About</a>
+                <div
+                  class="ml-auto h-[1.3px] w-0 bg-primary transition-[width] duration-150 group-hover:ml-0 group-hover:w-full"
+                ></div>
+              </li>
+              <li class="group">
+                <a href="#">Services</a>
+                <div
+                  class="ml-auto h-[1.3px] w-0 bg-primary transition-[width] duration-150 group-hover:ml-0 group-hover:w-full"
+                ></div>
+              </li>
+              <li class="group">
+                <a href="#">Blog</a>
+                <div
+                  class="ml-auto h-[1.3px] w-0 bg-primary transition-[width] duration-150 group-hover:ml-0 group-hover:w-full"
+                ></div>
+              </li>
+              <li class="group">
+                <a href="#">Testimonials</a>
+                <div
+                  class="ml-auto h-[1.3px] w-0 bg-primary transition-[width] duration-150 group-hover:ml-0 group-hover:w-full"
+                ></div>
+              </li>
+            </ul>
+
+            <button
+              class="group relative hidden h-14 w-36 overflow-hidden rounded border-2 border-primary bg-transparent px-7 py-3 transition duration-300 hover:text-white lg:block"
+            >
+              <span
+                class="absolute bottom-0 left-0 right-0 top-0 z-10 m-auto inline-flex items-center justify-center"
+                >Book Online</span
+              >
+              <div
+                class="trnasition absolute left-0 top-0 z-0 h-full w-0 rounded-r-full bg-primary transition-[width] duration-300 group-hover:w-44"
+              ></div>
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <header
+        class="relative h-screen bg-cover bg-no-repeat"
+        style="background-image: url(./assets/herobg.png)"
+      >
+        <div
+          class="flex h-full items-center bg-gradient-to-r from-primary to-transparent text-white"
+        >
+          <div class="container">
+            <div class="lg:w-8/12">
+              <h1
+                class="font-bold"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
+                Experience Excellence in Medicine
+              </h1>
+
+              <p
+                class="mb-12 mt-8"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="100"
+              >
+                Welcome to our healthcare sanctuary, where your well-being takes
+                center stage. Our dedicated team of medical experts is committed
+                to providing exceptional care tailored to your needs. From
+                preventive medicine to specialized treatments, we prioritize
+                your health journey.
+              </p>
+
+              <div class="flex items-center gap-12">
+                <button
+                  class="group relative h-14 w-36 overflow-hidden rounded border-2 border-primary bg-white px-7 py-3 text-primary transition duration-300 hover:text-white"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                  data-aos-delay="200"
+                >
+                  <span
+                    class="absolute bottom-0 left-0 right-0 top-0 z-10 m-auto inline-flex items-center justify-center"
+                    >Read More</span
+                  >
+                  <div
+                    class="trnasition absolute left-0 top-0 z-0 h-full w-0 rounded-r-full bg-primary transition-[width] duration-300 group-hover:w-44"
+                  ></div>
+                </button>
+
+                <label
+                  class="flex cursor-pointer items-center gap-4 font-semibold"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                  data-aos-delay="300"
+                  for="video-check"
+                >
+                  <div
+                    class="flex h-8 w-8 items-center justify-center rounded-full bg-white text-primary"
+                  >
+                    <i class="fa fa-play text-xs"></i>
+                  </div>
+                  Learn More
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="container relative">
+        <div
+          class="static -top-20 grid grid-cols-1 gap-4 bg-white p-7 shadow-[0_3px_32px_0_#0067FF1A] md:grid-cols-2 lg:absolute lg:grid-cols-3 lg:p-14"
+        >
+          <aside
+            class="flex flex-col items-center justify-center gap-6 text-center text-dark lg:flex-row"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            <img
+              src="./assets/services-small/ecg.svg"
+              alt=""
+              class="w-20 lg:w-auto"
+            />
+            <aside>
+              <h5 class="font-medium text-dark">Chronic Disease</h5>
+              <p class="text-gray-dark">
+                Personalized plans and continuous monitoring
+              </p>
+            </aside>
+          </aside>
+
+          <aside
+            class="flex flex-col items-center justify-center gap-6 text-center text-dark lg:flex-row"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <img
+              src="./assets/services-small/fluid.svg"
+              alt=""
+              class="w-20 lg:w-auto"
+            />
+            <aside>
+              <h5 class="font-medium text-dark">Chronic Disease</h5>
+              <p class="text-gray-dark">
+                Personalized plans and continuous monitoring
+              </p>
+            </aside>
+          </aside>
+
+          <aside
+            class="flex flex-col items-center justify-center gap-6 text-center text-dark lg:flex-row"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            <img
+              src="./assets/services-small/home_health.svg"
+              alt=""
+              class="w-20 lg:w-auto"
+            />
+            <aside>
+              <h5 class="font-medium text-dark">Chronic Disease</h5>
+              <p class="text-gray-dark">
+                Personalized plans and continuous monitoring
+              </p>
+            </aside>
+          </aside>
+        </div>
+      </div>
+
+      <input class="hidden" type="checkbox" id="video-check" />
+
+      <label
+        for="video-check"
+        class="pointer-events-none fixed left-0 top-0 z-[99999999999] flex h-screen w-screen items-center justify-center bg-black bg-opacity-50 opacity-0 transition delay-200 duration-1000"
+        id="video"
+      >
+        <div
+          class="relative aspect-[16/9] w-11/12 rounded-md shadow-[0_0_3rem_#333] lg:w-1/2"
+        >
+          <label
+            for="video-check"
+            class="absolute -top-14 right-0 cursor-pointer text-3xl text-white lg:-right-10 lg:-top-12"
+          >
+            <i class="fa fa-times"></i>
+          </label>
+          <iframe
+            class="h-full w-full rounded-md"
+            src="https://www.youtube.com/embed/xcJtL7QggTI?si=YN9q7bMgyNle6d7Z"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </label>
+
+      <!-- About us Section -->
+
+      <section
+        class="container relative mt-14 flex flex-col items-center gap-16 lg:mt-60 lg:h-screen lg:flex-row"
+      >
+        <div class="relative z-0 w-full lg:w-7/12">
+          <div
+            class="absolute -left-14 bottom-0 top-0 z-[-1] m-auto h-[140%] w-[189px] bg-primary"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          ></div>
+          <div class="overflow-hidden">
+            <img
+              src="./assets/about-us.jpeg"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+              alt="about-us"
+            />
+          </div>
+        </div>
+        <div class="relative z-30 w-full lg:w-5/12">
+          <p
+            class="font-poppins font-semibold text-primary"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            About Us
+          </p>
+          <h2
+            class="font-semibold"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            Where Care Meets Expertise
+          </h2>
+          <p
+            class="mt-4 font-rubik text-gray-dark"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            Our dedicated team of medical experts is committed to providing
+            exceptional care tailored
+          </p>
+
+          <div
+            class="relative z-[99] mt-8 bg-white p-4 shadow-[0_3px_32px_0_#0000000A] lg:-left-44 lg:top-16 lg:mt-0 lg:w-[127%] lg:p-12"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <div
+              class="flex flex-col items-center gap-5 text-center lg:flex-row lg:text-left"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            >
+              <div
+                class="flex aspect-square h-16 w-16 items-center justify-center bg-primary"
+              >
+                <img
+                  src="./assets/icons/stethoscope_arrow.svg"
+                  alt="stethoscope_arrow"
+                />
+              </div>
+
+              <aside>
+                <h5 class="font-semibold">Your Partner in Medical Care</h5>
+                <p class="mt-3 font-rubik text-gray-dark">
+                  Our dedicated team of medical experts is committed to
+                  providing exceptional care tailored
+                </p>
+              </aside>
+            </div>
+
+            <div
+              class="mt-10 flex flex-col items-center gap-5 text-center lg:flex-row lg:text-left"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            >
+              <div
+                class="flex aspect-square h-16 w-16 items-center justify-center bg-primary"
+              >
+                <img src="./assets/icons/skeleton.svg" alt="skeleton" />
+              </div>
+
+              <aside>
+                <h5 class="font-semibold">Your Partner in Medical Care</h5>
+                <p class="mt-3 text-gray-dark">
+                  Our dedicated team of medical experts is committed to
+                  providing exceptional care tailored
+                </p>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why us Section -->
+
+      <section class="container mt-20 flex flex-col lg:flex-row" id="why-us">
+        <div class="w-full lg:w-8/12">
+          <p
+            class="font-poppins font-medium text-primary"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            Why Us
+          </p>
+          <h2 class="font-bold" data-aos="fade-right" data-aos-duration="1000">
+            Step into Healthcare Excellence: Your Health, Our Priority
+          </h2>
+          <p
+            class="mt-6 text-gray-dark lg:w-11/12"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            From preventive medicine to specialized treatments, we prioritize
+            your health journey. With cutting-edge technology and compassionate
+            professionals, we strive to ensure every step of your healthcare.
+          </p>
+
+          <div class="target mx-auto mt-5 w-11/12">
+            <div
+              class="flex items-center gap-5"
               data-aos="fade-right"
               data-aos-duration="1000"
             >
-              Experience Excellence in Medicine
-            </h1>
-
-            <p
-              class="mb-12 mt-8"
+              <aside class="w-1/4 text-center">
+                <h2 class="font-bold text-primary">
+                  <span id="value1"></span>+
+                </h2>
+                <h6 class="-mt-2 text-sm font-semibold">Happy Clients</h6>
+              </aside>
+              <p class="text-gray-dark">
+                From preventive medicine to specialized treatments, we
+                prioritize your health journey.
+              </p>
+            </div>
+            <div
+              class="mt-10 flex items-center gap-5"
               data-aos="fade-right"
               data-aos-duration="1000"
               data-aos-delay="100"
+              data-aos-anchor="#value1"
             >
-              Welcome to our healthcare sanctuary, where your well-being takes
-              center stage. Our dedicated team of medical experts is committed
-              to providing exceptional care tailored to your needs. From
-              preventive medicine to specialized treatments, we prioritize your
-              health journey.
+              <aside class="w-1/4 text-center">
+                <h2 class="font-bold text-primary">
+                  <span id="value2"></span>+
+                </h2>
+                <h6 class="-mt-2 text-sm font-semibold">Years Experience</h6>
+              </aside>
+              <p class="text-gray-dark">
+                From preventive medicine to specialized treatments, we
+                prioritize your health journey.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="relative mt-10 w-full lg:mt-0 lg:w-4/12">
+          <img
+            src="./assets/why-us.jpeg"
+            class="ml-auto w-11/12 lg:w-9/12"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+            alt="why-us-image"
+            data-aos-anchor="#why-us"
+          />
+          <label for="video-check" class="cursor-pointer">
+            <img
+              src="./assets/why-us-2.jpg"
+              class="absolute -bottom-4 lg:-bottom-16"
+              alt="why-us-video-placeholder"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-anchor="#why-us"
+            />
+          </label>
+        </div>
+      </section>
+
+      <!-- Passionate Healthcare Section -->
+
+      <section
+        style="background-image: url(./assets/compassionate-healthcare-bg.jpeg)"
+        class="mt-14 bg-cover bg-center bg-no-repeat lg:mt-36"
+      >
+        <div class="bg-primary bg-opacity-75 py-16 text-white" id="passionate">
+          <div class="container">
+            <div
+              class="flex flex-col items-center gap-10 lg:flex-row lg:gap-20"
+            >
+              <div class="w-full lg:w-7/12">
+                <p
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                  data-aos-anchor="#passionate"
+                >
+                  MEYDEXA - Medical Landing Page
+                </p>
+                <h2
+                  class="font-bold"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                  data-aos-delay="100"
+                  data-aos-anchor="#passionate"
+                >
+                  Welcome to Compassionate Healthcare
+                </h2>
+                <p
+                  class="mt-7 text-gray-light"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                  data-aos-delay="200"
+                  data-aos-anchor="#passionate"
+                >
+                  From preventive medicine to specialized treatments, we
+                  prioritize your health journey. With cutting-edge technology
+                  and compassionate professionals, we strive to ensure every
+                  step of your healthcare.
+                </p>
+              </div>
+              <div
+                class="w-full bg-white p-4 lg:w-5/12 lg:p-10"
+                data-aos="fade-in"
+                data-aos-duration="1000"
+                data-aos-anchor="#passionate"
+              >
+                <div
+                  class="flex items-center gap-2 lg:gap-5"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  data-aos-delay="200"
+                  data-aos-anchor="#passionate"
+                >
+                  <div
+                    class="flex aspect-square h-16 w-16 items-center justify-center bg-primary"
+                  >
+                    <img
+                      src="./assets/icons/stethoscope_arrow.svg"
+                      alt="stethoscope_arrow"
+                    />
+                  </div>
+
+                  <aside class="text-dark">
+                    <h5 class="font-bold">Patient-Centered Experience:</h5>
+                    <p class="mt-2 text-gray-dark">
+                      Personalized care ensuring holistic patient well-being
+                    </p>
+                  </aside>
+                </div>
+                <div
+                  class="mt-6 flex items-center gap-2 lg:gap-5"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  data-aos-delay="300"
+                  data-aos-anchor="#passionate"
+                >
+                  <div
+                    class="flex aspect-square h-16 w-16 items-center justify-center bg-primary"
+                  >
+                    <img src="./assets/icons/skeleton.svg" alt="skeleton" />
+                  </div>
+
+                  <aside class="text-black">
+                    <h5 class="font-bold">Integrated Healthcare Experience</h5>
+                    <p class="mt-2 text-gray-dark">
+                      Seamless, coordinated care across multiple health
+                      services.
+                    </p>
+                  </aside>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+
+      <section>
+        <div
+          class="container flex flex-col items-center gap-20 py-14 lg:flex-row lg:py-28"
+          id="services"
+        >
+          <div class="order-2 w-full lg:order-1 lg:w-5/12">
+            <div class="grid grid-cols-2 gap-5">
+              <div
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+                data-aos-anchor="#services"
+              >
+                <div
+                  class="group flex aspect-square flex-col items-center justify-center gap-3 rounded-md text-center shadow-[0_3px_32px_0_#0000000A] transition duration-300 hover:bg-primary hover:text-white hover:shadow-[0_3px_32px_0_#0067FF3D]"
+                >
+                  <svg
+                    width="34"
+                    height="32"
+                    viewBox="0 0 34 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M16.6255 24.9456L10.3816 30.8831C9.74329 31.4901 8.96627 31.7936 8.05049 31.7936C7.13471 31.7936 6.35768 31.4901 5.71941 30.8831L0.974007 26.3706C0.335737 25.7637 0.0166016 25.0248 0.0166016 24.154C0.0166016 23.2831 0.335737 22.5443 0.974007 21.9373L7.21796 15.9998L0.974007 10.0623C0.335737 9.45536 0.0166016 8.71647 0.0166016 7.84564C0.0166016 6.97481 0.335737 6.23592 0.974007 5.62897L5.71941 1.11647C6.35768 0.509527 7.13471 0.206055 8.05049 0.206055C8.96627 0.206055 9.74329 0.509527 10.3816 1.11647L16.6255 7.05397L22.8695 1.11647C23.5077 0.509527 24.2848 0.206055 25.2005 0.206055C26.1163 0.206055 26.8933 0.509527 27.5316 1.11647L32.277 5.62897C32.9153 6.23592 33.2344 6.97481 33.2344 7.84564C33.2344 8.71647 32.9153 9.45536 32.277 10.0623L26.0331 15.9998L32.277 21.9373C32.9153 22.5443 33.2344 23.2831 33.2344 24.154C33.2344 25.0248 32.9153 25.7637 32.277 26.3706L27.5316 30.8831C26.8933 31.4901 26.1163 31.7936 25.2005 31.7936C24.2848 31.7936 23.5077 31.4901 22.8695 30.8831L16.6255 24.9456ZM16.6255 14.4165C17.0973 14.4165 17.4927 14.2647 17.8119 13.9613C18.131 13.6578 18.2906 13.2817 18.2906 12.8331C18.2906 12.3845 18.131 12.0085 17.8119 11.705C17.4927 11.4015 17.0973 11.2498 16.6255 11.2498C16.1537 11.2498 15.7583 11.4015 15.4392 11.705C15.12 12.0085 14.9605 12.3845 14.9605 12.8331C14.9605 13.2817 15.12 13.6578 15.4392 13.9613C15.7583 14.2647 16.1537 14.4165 16.6255 14.4165ZM9.54903 13.7831L14.2944 9.27064L8.05049 3.33314L3.30508 7.84564L9.54903 13.7831ZM13.2954 17.5831C13.7672 17.5831 14.1626 17.4314 14.4818 17.1279C14.8009 16.8245 14.9605 16.4484 14.9605 15.9998C14.9605 15.5512 14.8009 15.1752 14.4818 14.8717C14.1626 14.5682 13.7672 14.4165 13.2954 14.4165C12.8236 14.4165 12.4282 14.5682 12.1091 14.8717C11.7899 15.1752 11.6304 15.5512 11.6304 15.9998C11.6304 16.4484 11.7899 16.8245 12.1091 17.1279C12.4282 17.4314 12.8236 17.5831 13.2954 17.5831ZM16.6255 20.7498C17.0973 20.7498 17.4927 20.5981 17.8119 20.2946C18.131 19.9911 18.2906 19.6151 18.2906 19.1665C18.2906 18.7179 18.131 18.3418 17.8119 18.0383C17.4927 17.7349 17.0973 17.5831 16.6255 17.5831C16.1537 17.5831 15.7583 17.7349 15.4392 18.0383C15.12 18.3418 14.9605 18.7179 14.9605 19.1665C14.9605 19.6151 15.12 19.9911 15.4392 20.2946C15.7583 20.5981 16.1537 20.7498 16.6255 20.7498ZM19.9556 17.5831C20.4274 17.5831 20.8228 17.4314 21.142 17.1279C21.4611 16.8245 21.6207 16.4484 21.6207 15.9998C21.6207 15.5512 21.4611 15.1752 21.142 14.8717C20.8228 14.5682 20.4274 14.4165 19.9556 14.4165C19.4839 14.4165 19.0884 14.5682 18.7693 14.8717C18.4501 15.1752 18.2906 15.5512 18.2906 15.9998C18.2906 16.4484 18.4501 16.8245 18.7693 17.1279C19.0884 17.4314 19.4839 17.5831 19.9556 17.5831ZM18.9566 22.729L25.2005 28.6665L29.9459 24.154L23.702 18.2165L18.9566 22.729Z"
+                      class="fill-primary transition duration-300 group-hover:fill-white"
+                    />
+                  </svg>
+                  <h5
+                    class="font-semibold text-dark transition duration-300 group-hover:text-white"
+                  >
+                    Primary Care
+                  </h5>
+                  <p
+                    class="text-gray-dark transition duration-300 group-hover:text-white"
+                  >
+                    Our dedicated team of medical experts
+                  </p>
+                </div>
+              </div>
+
+              <div
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+                data-aos-anchor="#services"
+                data-aos-delay="200"
+              >
+                <div
+                  class="group flex aspect-square flex-col items-center justify-center gap-3 rounded-md text-center shadow-[0_3px_32px_0_#0000000A] transition duration-300 hover:bg-primary hover:text-white hover:shadow-[0_3px_32px_0_#0067FF3D]"
+                >
+                  <svg
+                    width="34"
+                    height="29"
+                    viewBox="0 0 34 29"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0.465332 8.24992V3.49992C0.465332 2.62909 0.791405 1.8836 1.44355 1.26346C2.0957 0.643321 2.87966 0.333252 3.79544 0.333252H30.4363C31.3521 0.333252 32.136 0.643321 32.7882 1.26346C33.4403 1.8836 33.7664 2.62909 33.7664 3.49992V12.2083H30.4363V3.49992H3.79544V8.24992H0.465332ZM8.7906 20.9166C8.48534 20.9166 8.19396 20.844 7.91645 20.6989C7.63894 20.5537 7.43081 20.336 7.29205 20.0458L4.41983 14.5833H0.465332V11.4166H5.46049C5.76575 11.4166 6.05714 11.4892 6.33465 11.6343C6.61216 11.7794 6.82029 11.9971 6.95904 12.2874L8.7906 15.7708L13.9523 5.95409C14.091 5.6902 14.2992 5.49228 14.5767 5.36034C14.8542 5.22839 15.1456 5.16242 15.4508 5.16242C15.7561 5.16242 16.0475 5.22839 16.325 5.36034C16.6025 5.49228 16.8106 5.6902 16.9494 5.95409L19.7383 11.2583C19.2388 11.5485 18.7601 11.852 18.3022 12.1687C17.8443 12.4853 17.4211 12.8416 17.0326 13.2374L15.4508 10.2291L10.2891 20.0458C10.1504 20.336 9.94226 20.5537 9.66475 20.6989C9.38725 20.844 9.09586 20.9166 8.7906 20.9166ZM14.9097 25.6666H3.79544C2.87966 25.6666 2.0957 25.3565 1.44355 24.7364C0.791405 24.1162 0.465332 23.3708 0.465332 22.4999V17.7499H3.79544V22.4999H13.9106C13.9939 23.0541 14.1188 23.5951 14.2853 24.1228C14.4518 24.6506 14.6599 25.1652 14.9097 25.6666ZM25.4411 28.8333C23.1378 28.8333 21.1744 28.0614 19.551 26.5176C17.9276 24.9739 17.1159 23.1069 17.1159 20.9166C17.1159 18.7263 17.9276 16.8593 19.551 15.3155C21.1744 13.7718 23.1378 12.9999 25.4411 12.9999C27.7445 12.9999 29.7078 13.7718 31.3313 15.3155C32.9547 16.8593 33.7664 18.7263 33.7664 20.9166C33.7664 23.1069 32.9547 24.9739 31.3313 26.5176C29.7078 28.0614 27.7445 28.8333 25.4411 28.8333ZM25.7741 21.7083L29.5621 18.1062L28.3966 16.9978L24.6086 20.5999L25.7741 21.7083Z"
+                      class="fill-primary transition duration-300 group-hover:fill-white"
+                    />
+                  </svg>
+
+                  <h5
+                    class="font-semibold text-dark transition duration-300 group-hover:text-white"
+                  >
+                    Diagnostic
+                  </h5>
+                  <p
+                    class="text-gray-dark transition duration-300 group-hover:text-white"
+                  >
+                    Our dedicated team of medical experts
+                  </p>
+                </div>
+              </div>
+
+              <div
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+                data-aos-anchor="#services"
+                data-aos-delay="400"
+              >
+                <div
+                  class="group flex aspect-square flex-col items-center justify-center gap-3 rounded-md text-center shadow-[0_3px_32px_0_#0000000A] transition duration-300 hover:bg-primary hover:text-white hover:shadow-[0_3px_32px_0_#0067FF3D]"
+                >
+                  <svg
+                    width="33"
+                    height="33"
+                    viewBox="0 0 33 33"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.9654 32.6251L7.63531 30.2501V23.9167H5.97026C5.05448 23.9167 4.27052 23.6067 3.61837 22.9865C2.96622 22.3664 2.64015 21.6209 2.64015 20.7501V8.87508C2.16839 8.87508 1.77294 8.72334 1.4538 8.41987C1.13467 8.1164 0.975098 7.74036 0.975098 7.29175C0.975098 6.84314 1.13467 6.4671 1.4538 6.16362C1.77294 5.86015 2.16839 5.70841 2.64015 5.70841H7.63531V3.33341H6.80279C6.33102 3.33341 5.93557 3.18168 5.61644 2.87821C5.2973 2.57473 5.13773 2.19869 5.13773 1.75008C5.13773 1.30147 5.2973 0.925429 5.61644 0.621956C5.93557 0.318484 6.33102 0.166748 6.80279 0.166748H11.7979C12.2697 0.166748 12.6652 0.318484 12.9843 0.621956C13.3034 0.925429 13.463 1.30147 13.463 1.75008C13.463 2.19869 13.3034 2.57473 12.9843 2.87821C12.6652 3.18168 12.2697 3.33341 11.7979 3.33341H10.9654V5.70841H15.9606C16.4323 5.70841 16.8278 5.86015 17.1469 6.16362C17.4661 6.4671 17.6256 6.84314 17.6256 7.29175C17.6256 7.74036 17.4661 8.1164 17.1469 8.41987C16.8278 8.72334 16.4323 8.87508 15.9606 8.87508V20.7501C15.9606 21.6209 15.6345 22.3664 14.9824 22.9865C14.3302 23.6067 13.5463 23.9167 12.6305 23.9167H10.9654V32.6251ZM5.97026 20.7501H12.6305V18.3751H9.71663C9.38362 18.3751 9.09223 18.2563 8.84248 18.0188C8.59272 17.7813 8.46784 17.5042 8.46784 17.1876C8.46784 16.8709 8.59272 16.5938 8.84248 16.3563C9.09223 16.1188 9.38362 16.0001 9.71663 16.0001H12.6305V13.6251H9.71663C9.38362 13.6251 9.09223 13.5063 8.84248 13.2688C8.59272 13.0313 8.46784 12.7542 8.46784 12.4376C8.46784 12.1209 8.59272 11.8438 8.84248 11.6063C9.09223 11.3688 9.38362 11.2501 9.71663 11.2501H12.6305V8.87508H5.97026V20.7501ZM22.6208 31.8334C21.705 31.8334 20.9211 31.5233 20.2689 30.9032C19.6168 30.2831 19.2907 29.5376 19.2907 28.6667V18.3751C19.2907 17.6098 19.4294 16.9765 19.707 16.4751C19.9845 15.9737 20.2758 15.5383 20.5811 15.1688C20.8864 14.7994 21.1639 14.5025 21.4136 14.2782C21.6634 14.0539 21.7883 13.8362 21.7883 13.6251V12.8334C21.3165 12.8334 20.9211 12.6817 20.6019 12.3782C20.2828 12.0747 20.1232 11.6987 20.1232 11.2501C20.1232 10.8015 20.2828 10.4254 20.6019 10.122C20.9211 9.81848 21.3165 9.66675 21.7883 9.66675H30.1135C30.5853 9.66675 30.9808 9.81848 31.2999 10.122C31.619 10.4254 31.7786 10.8015 31.7786 11.2501C31.7786 11.6987 31.619 12.0747 31.2999 12.3782C30.9808 12.6817 30.5853 12.8334 30.1135 12.8334V13.6251C30.1135 13.8362 30.2523 14.0737 30.5298 14.3376C30.8073 14.6015 31.1126 14.9181 31.4456 15.2876C31.7508 15.657 32.0214 16.0924 32.2573 16.5938C32.4932 17.0952 32.6111 17.689 32.6111 18.3751V28.6667C32.6111 29.5376 32.285 30.2831 31.6329 30.9032C30.9808 31.5233 30.1968 31.8334 29.281 31.8334H22.6208ZM22.6208 19.1667H29.281V18.3751C29.281 17.9792 29.1561 17.6362 28.9064 17.3459C28.6566 17.0556 28.3791 16.739 28.0738 16.3959C27.7686 16.0529 27.4772 15.6702 27.1997 15.248C26.9222 14.8258 26.7834 14.2848 26.7834 13.6251V12.8334H25.1184V13.6251C25.1184 14.2584 24.9866 14.7862 24.7229 15.2084C24.4593 15.6306 24.1748 16.0133 23.8696 16.3563C23.5643 16.6994 23.2799 17.0227 23.0162 17.3261C22.7526 17.6296 22.6208 17.9792 22.6208 18.3751V19.1667ZM22.6208 23.9167H29.281V21.5417H22.6208V23.9167ZM22.6208 28.6667H29.281V26.2917H22.6208V28.6667Z"
+                      class="fill-primary transition duration-300 group-hover:fill-white"
+                    />
+                  </svg>
+
+                  <h5
+                    class="font-semibold text-dark transition duration-300 group-hover:text-white"
+                  >
+                    Rehabilitation
+                  </h5>
+                  <p
+                    class="text-gray-dark transition duration-300 group-hover:text-white"
+                  >
+                    Our dedicated team of medical experts
+                  </p>
+                </div>
+              </div>
+
+              <div
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+                data-aos-anchor="#services"
+                data-aos-delay="600"
+              >
+                <div
+                  class="group flex aspect-square flex-col items-center justify-center gap-3 rounded-md text-center shadow-[0_3px_32px_0_#0000000A] transition duration-300 hover:bg-primary hover:text-white hover:shadow-[0_3px_32px_0_#0067FF3D]"
+                >
+                  <svg
+                    width="38"
+                    height="30"
+                    viewBox="0 0 38 30"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M31.6038 20.5417L29.2311 18.325L31.0626 16.5833H25.7761V13.4167H31.021L29.2311 11.7146L31.6038 9.45833L37.4315 15L31.6038 20.5417ZM2.46535 3.91667V0.75H22.446V3.91667H2.46535ZM9.95809 23.7083H14.9532V19.75H19.1159V15H14.9532V11.0417H9.95809V15H5.79545V19.75H9.95809V23.7083ZM4.1304 29.25C3.21462 29.25 2.43066 28.9399 1.77851 28.3198C1.12637 27.6997 0.800293 26.9542 0.800293 26.0833V8.66667C0.800293 7.79583 1.12637 7.05035 1.77851 6.43021C2.43066 5.81007 3.21462 5.5 4.1304 5.5H20.7809C21.6967 5.5 22.4807 5.81007 23.1328 6.43021C23.785 7.05035 24.111 7.79583 24.111 8.66667V26.0833C24.111 26.9542 23.785 27.6997 23.1328 28.3198C22.4807 28.9399 21.6967 29.25 20.7809 29.25H4.1304ZM4.1304 26.0833H20.7809V8.66667H4.1304V26.0833Z"
+                      class="fill-primary transition duration-300 group-hover:fill-white"
+                    />
+                  </svg>
+
+                  <h5
+                    class="font-semibold text-dark transition duration-300 group-hover:text-white"
+                  >
+                    Specialty Care
+                  </h5>
+                  <p
+                    class="text-gray-dark transition duration-300 group-hover:text-white"
+                  >
+                    Our dedicated team of medical experts
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="order-1 w-full text-center lg:order-2 lg:w-7/12 lg:text-right"
+          >
+            <p
+              class="font-poppins font-medium text-primary"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              Our Services
+            </p>
+            <h2
+              class="font-bold text-dark"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              Discover Comprehensive Medical Care
+            </h2>
+
+            <p
+              class="mt-7 text-gray-dark"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              From preventive medicine to specialized treatments, we prioritize
+              your health journey. With cutting-edge technology and
+              compassionate professionals, we strive to ensure every
             </p>
 
-            <div class="flex items-center gap-12">
-              <button
-                class="group relative h-14 w-36 overflow-hidden rounded border-2 border-primary bg-white px-7 py-3 text-primary transition duration-300 hover:text-white"
-                data-aos="fade-right"
+            <div
+              class="mt-12 flex items-center justify-center gap-12 lg:justify-end"
+            >
+              <label
+                class="flex cursor-pointer items-center gap-4 font-semibold"
+                data-aos="fade-left"
                 data-aos-duration="1000"
                 data-aos-delay="200"
+                for="video-check"
+              >
+                <div
+                  class="flex h-8 w-8 items-center justify-center rounded-full bg-white text-primary"
+                >
+                  <i class="fas fa-play-circle text-xl"></i>
+                </div>
+                Learn More
+              </label>
+
+              <button
+                class="group relative h-14 w-36 overflow-hidden rounded border-2 border-primary bg-primary px-7 py-3 text-white transition duration-300 hover:text-primary"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="300"
               >
                 <span
                   class="absolute bottom-0 left-0 right-0 top-0 z-10 m-auto inline-flex items-center justify-center"
                   >Read More</span
                 >
                 <div
-                  class="trnasition absolute left-0 top-0 z-0 h-full w-0 rounded-r-full bg-primary transition-[width] duration-300 group-hover:w-40"
+                  class="trnasition absolute right-0 top-0 z-0 h-full w-0 rounded-l-full bg-white transition-[width] duration-300 group-hover:w-44"
                 ></div>
               </button>
-
-              <label
-                class="flex cursor-pointer items-center gap-4 font-semibold"
-                data-aos="fade-right"
-                data-aos-duration="1000"
-                data-aos-delay="300"
-                for="video-check"
-              >
-                <div
-                  class="flex h-8 w-8 items-center justify-center rounded-full bg-white text-primary"
-                >
-                  <i class="fa fa-play text-xs"></i>
-                </div>
-                Learn More
-              </label>
             </div>
           </div>
         </div>
-      </div>
-    </header>
+      </section>
 
-    <div class="container relative">
-      <div
-        class="static -top-20 grid grid-cols-1 gap-4 bg-white p-7 shadow-[0_3px_32px_0_#0067FF1A] md:grid-cols-2 lg:absolute lg:grid-cols-3 lg:p-14"
-      >
-        <aside
-          class="flex flex-col items-center justify-center gap-6 text-center text-dark lg:flex-row"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="100"
-        >
-          <img
-            src="./assets/services-small/ecg.svg"
-            alt=""
-            class="w-20 lg:w-auto"
-          />
-          <aside>
-            <h5 class="font-medium text-dark">Chronic Disease</h5>
-            <p class="text-gray-dark">
-              Personalized plans and continuous monitoring
-            </p>
-          </aside>
-        </aside>
+      <!-- Testimonials Section -->
 
-        <aside
-          class="flex flex-col items-center justify-center gap-6 text-center text-dark lg:flex-row"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="200"
-        >
-          <img
-            src="./assets/services-small/fluid.svg"
-            alt=""
-            class="w-20 lg:w-auto"
-          />
-          <aside>
-            <h5 class="font-medium text-dark">Chronic Disease</h5>
-            <p class="text-gray-dark">
-              Personalized plans and continuous monitoring
-            </p>
-          </aside>
-        </aside>
-
-        <aside
-          class="flex flex-col items-center justify-center gap-6 text-center text-dark lg:flex-row"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="300"
-        >
-          <img
-            src="./assets/services-small/home_health.svg"
-            alt=""
-            class="w-20 lg:w-auto"
-          />
-          <aside>
-            <h5 class="font-medium text-dark">Chronic Disease</h5>
-            <p class="text-gray-dark">
-              Personalized plans and continuous monitoring
-            </p>
-          </aside>
-        </aside>
-      </div>
-    </div>
-
-    <input class="hidden" type="checkbox" id="video-check" />
-
-    <div
-      class="pointer-events-none fixed left-0 top-0 z-[99999999999] flex h-screen w-screen items-center justify-center bg-black bg-opacity-50 opacity-0 transition delay-200 duration-1000"
-      id="video"
-    >
-      <div
-        class="relative aspect-[16/9] w-11/12 rounded-md shadow-[0_0_3rem_#333] lg:w-1/2"
-      >
-        <label
-          for="video-check"
-          class="absolute -top-14 right-0 cursor-pointer text-3xl text-white lg:-right-10 lg:-top-12"
-        >
-          <i class="fa fa-times"></i>
-        </label>
-        <iframe
-          class="h-full w-full rounded-md"
-          src="https://www.youtube.com/embed/xcJtL7QggTI?si=YN9q7bMgyNle6d7Z"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </div>
-
-    <!-- About us Section -->
-
-    <section
-      class="container relative mt-14 flex h-screen flex-col items-center gap-16 lg:mt-60 lg:flex-row"
-    >
-      <div class="relative z-0 w-full lg:w-7/12">
-        <div
-          class="absolute -left-14 bottom-0 top-0 z-[-1] m-auto h-[140%] w-[189px] bg-primary"
-          data-aos="fade-down"
-          data-aos-duration="1000"
-        ></div>
-        <div class="overflow-hidden">
-          <img
-            src="./assets/about-us.jpeg"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-            data-aos-delay="500"
-            alt="about-us"
-          />
-        </div>
-      </div>
-      <div class="relative z-30 w-full lg:w-5/12">
-        <p
-          class="font-poppins font-semibold text-primary"
-          data-aos="fade-left"
-          data-aos-duration="1000"
-        >
-          About Us
-        </p>
-        <h2 class="font-semibold" data-aos="fade-left" data-aos-duration="1000">
-          Where Care Meets Expertise
-        </h2>
-        <p
-          class="mt-4 font-rubik text-gray-dark"
-          data-aos="fade-left"
-          data-aos-duration="1000"
-        >
-          Our dedicated team of medical experts is committed to providing
-          exceptional care tailored
-        </p>
-
-        <div
-          class="relative z-[99] mt-8 bg-white p-4 shadow-[0_3px_32px_0_#0000000A] lg:-left-44 lg:top-16 lg:mt-0 lg:w-[127%] lg:p-12"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-        >
-          <div
-            class="flex flex-col items-center gap-5 text-center lg:flex-row lg:text-left"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            data-aos-delay="500"
-          >
-            <div
-              class="flex aspect-square h-16 w-16 items-center justify-center bg-primary"
-            >
-              <img
-                src="./assets/icons/stethoscope_arrow.svg"
-                alt="stethoscope_arrow"
-              />
-            </div>
-
-            <aside>
-              <h5 class="font-semibold">Your Partner in Medical Care</h5>
-              <p class="mt-3 font-rubik text-gray-dark">
-                Our dedicated team of medical experts is committed to providing
-                exceptional care tailored
-              </p>
-            </aside>
-          </div>
-
-          <div
-            class="mt-10 flex flex-col items-center gap-5 text-center lg:flex-row lg:text-left"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            data-aos-delay="500"
-          >
-            <div
-              class="flex aspect-square h-16 w-16 items-center justify-center bg-primary"
-            >
-              <img src="./assets/icons/skeleton.svg" alt="skeleton" />
-            </div>
-
-            <aside>
-              <h5 class="font-semibold">Your Partner in Medical Care</h5>
-              <p class="mt-3 text-gray-dark">
-                Our dedicated team of medical experts is committed to providing
-                exceptional care tailored
-              </p>
-            </aside>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Why us Section -->
-
-    <section class="container flex flex-col lg:flex-row" id="why-us">
-      <div class="w-full lg:w-8/12">
+      <section class="container relative mb-14 text-center">
         <p
           class="font-poppins font-medium text-primary"
           data-aos="fade-right"
           data-aos-duration="1000"
         >
-          Why Us
+          Testimonials
         </p>
-        <h2 class="font-bold" data-aos="fade-right" data-aos-duration="1000">
-          Step into Healthcare Excellence: Your Health, Our Priority
+
+        <h2
+          class="mb-6 font-bold"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          Our Trusted Care in Their Words
         </h2>
+
         <p
-          class="mt-6 text-gray-dark lg:w-11/12"
+          class="mx-auto mb-14 text-gray-dark lg:w-5/6"
           data-aos="fade-right"
           data-aos-duration="1000"
         >
           From preventive medicine to specialized treatments, we prioritize your
           health journey. With cutting-edge technology and compassionate
-          professionals, we strive to ensure every step of your healthcare.
+          professionals, we strive to ensure every
         </p>
 
-        <div class="target mx-auto mt-5 w-11/12">
-          <div
-            class="flex items-center gap-5"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-          >
-            <aside class="w-1/4 text-center">
-              <h2 class="font-bold text-primary"><span id="value1"></span>+</h2>
-              <h6 class="-mt-2 text-sm font-semibold">Happy Clients</h6>
-            </aside>
-            <p class="text-gray-dark">
-              From preventive medicine to specialized treatments, we prioritize
-              your health journey.
-            </p>
+        <div class="swiper-container">
+          <div class="swiper-wrapper p-4 !pt-0 pl-0 lg:p-10 lg:pl-4">
+            <div class="swiper-slide">
+              <div class="p-4 text-left shadow-xl lg:p-11">
+                <p>
+                  The preventive care services at Discover Comprehensive Medical
+                  Care have been exceptional. The regular screenings and health
+                  education have really helped me maintain a healthy lifestyle
+                </p>
+
+                <div class="flex items-end justify-between">
+                  <div class="mt-6 flex items-center gap-3">
+                    <img
+                      src="./assets/testimonials/testimonial-1.png"
+                      alt="testimonial-1"
+                      class="h-14 w-14"
+                    />
+                    <aside>
+                      <h5 class="font-poppins font-bold">Dohn Joenathan</h5>
+                      <p class="font-semibold text-primary lg:hidden">
+                        School Teacher
+                      </p>
+                      <div class="mt-1 flex gap-2 text-primary">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                    </aside>
+                  </div>
+
+                  <p class="hidden font-semibold text-primary lg:block">
+                    School Teacher
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="p-4 text-left shadow-xl lg:p-11">
+                <p>
+                  The preventive care services at Discover Comprehensive Medical
+                  Care have been exceptional. The regular screenings and health
+                  education have really helped me maintain a healthy lifestyle
+                </p>
+
+                <div class="flex items-end justify-between">
+                  <div class="mt-6 flex items-center gap-3">
+                    <img
+                      src="./assets/testimonials/testimonial-2.png"
+                      alt="testimonial-1"
+                      class="h-14 w-14"
+                    />
+                    <aside>
+                      <h5 class="font-poppins font-bold">John Davis</h5>
+                      <p class="font-semibold text-primary lg:hidden">
+                        School Teacher
+                      </p>
+                      <div class="mt-1 flex gap-2 text-primary">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                    </aside>
+                  </div>
+
+                  <p class="hidden font-semibold text-primary lg:block">
+                    School Teacher
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="p-4 text-left shadow-xl lg:p-11">
+                <p>
+                  The preventive care services at Discover Comprehensive Medical
+                  Care have been exceptional. The regular screenings and health
+                  education have really helped me maintain a healthy lifestyle
+                </p>
+
+                <div class="flex items-end justify-between">
+                  <div class="mt-6 flex items-center gap-3">
+                    <img
+                      src="./assets/testimonials/testimonial-1.png"
+                      alt="testimonial-1"
+                      class="h-14 w-14"
+                    />
+                    <aside>
+                      <h5 class="font-poppins font-bold">Dohn Joenathan</h5>
+                      <p class="font-semibold text-primary lg:hidden">
+                        School Teacher
+                      </p>
+                      <div class="mt-1 flex gap-2 text-primary">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                    </aside>
+                  </div>
+
+                  <p class="hidden font-semibold text-primary lg:block">
+                    School Teacher
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="p-4 text-left shadow-xl lg:p-11">
+                <p>
+                  The preventive care services at Discover Comprehensive Medical
+                  Care have been exceptional. The regular screenings and health
+                  education have really helped me maintain a healthy lifestyle
+                </p>
+
+                <div class="flex items-end justify-between">
+                  <div class="mt-6 flex items-center gap-3">
+                    <img
+                      src="./assets/testimonials/testimonial-2.png"
+                      alt="testimonial-1"
+                      class="h-14 w-14"
+                    />
+                    <aside>
+                      <h5 class="font-poppins font-bold">John Davis</h5>
+                      <p class="font-semibold text-primary lg:hidden">
+                        School Teacher
+                      </p>
+                      <div class="mt-1 flex gap-2 text-primary">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                    </aside>
+                  </div>
+
+                  <p class="hidden font-semibold text-primary lg:block">
+                    School Teacher
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="p-4 text-left shadow-xl lg:p-11">
+                <p>
+                  The preventive care services at Discover Comprehensive Medical
+                  Care have been exceptional. The regular screenings and health
+                  education have really helped me maintain a healthy lifestyle
+                </p>
+
+                <div class="flex items-end justify-between">
+                  <div class="mt-6 flex items-center gap-3">
+                    <img
+                      src="./assets/testimonials/testimonial-1.png"
+                      alt="testimonial-1"
+                      class="h-14 w-14"
+                    />
+                    <aside>
+                      <h5 class="font-poppins font-bold">Dohn Joenathan</h5>
+                      <p class="font-semibold text-primary lg:hidden">
+                        School Teacher
+                      </p>
+                      <div class="mt-1 flex gap-2 text-primary">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                    </aside>
+                  </div>
+
+                  <p class="hidden font-semibold text-primary lg:block">
+                    School Teacher
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="p-4 text-left shadow-xl lg:p-11">
+                <p>
+                  The preventive care services at Discover Comprehensive Medical
+                  Care have been exceptional. The regular screenings and health
+                  education have really helped me maintain a healthy lifestyle
+                </p>
+
+                <div class="flex items-end justify-between">
+                  <div class="mt-6 flex items-center gap-3">
+                    <img
+                      src="./assets/testimonials/testimonial-2.png"
+                      alt="testimonial-1"
+                      class="h-14 w-14"
+                    />
+                    <aside>
+                      <h5 class="font-poppins font-bold">John Davis</h5>
+                      <p class="font-semibold text-primary lg:hidden">
+                        School Teacher
+                      </p>
+                      <div class="mt-1 flex gap-2 text-primary">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                    </aside>
+                  </div>
+
+                  <p class="hidden font-semibold text-primary lg:block">
+                    School Teacher
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div
-            class="mt-10 flex items-center gap-5"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-            data-aos-anchor="#value1"
-          >
-            <aside class="w-1/4 text-center">
-              <h2 class="font-bold text-primary"><span id="value2"></span>+</h2>
-              <h6 class="-mt-2 text-sm font-semibold">Years Experience</h6>
-            </aside>
-            <p class="text-gray-dark">
-              From preventive medicine to specialized treatments, we prioritize
-              your health journey.
-            </p>
-          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
         </div>
-      </div>
-      <div class="relative mt-10 w-full lg:mt-0 lg:w-4/12">
-        <img
-          src="./assets/why-us.jpeg"
-          class="ml-auto w-11/12 lg:w-9/12"
-          data-aos="fade-left"
-          data-aos-duration="1000"
-          data-aos-delay="100"
-          alt="why-us-image"
-          data-aos-anchor="#why-us"
-        />
-        <label for="video-check" class="cursor-pointer">
-          <img
-            src="./assets/why-us-2.jpg"
-            class="absolute -bottom-4 lg:-bottom-16"
-            alt="why-us-video-placeholder"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            data-aos-anchor="#why-us"
-          />
-        </label>
-      </div>
-    </section>
+      </section>
 
-    <!-- Passionate Healthcare Section -->
+      <!-- Footer Section -->
 
-    <section
-      style="background-image: url(./assets/compassionate-healthcare-bg.jpeg)"
-      class="mt-14 bg-cover bg-center bg-no-repeat lg:mt-36"
-    >
-      <div class="bg-primary bg-opacity-75 py-16 text-white" id="passionate">
-        <div class="container">
-          <div class="flex flex-col items-center gap-10 lg:flex-row lg:gap-20">
-            <div class="w-full lg:w-7/12">
-              <p
-                data-aos="fade-right"
-                data-aos-duration="1000"
-                data-aos-anchor="#passionate"
-              >
-                MEYDEXA - Medical Landing Page
-              </p>
-              <h2
+      <footer class="bg-primary text-white">
+        <div class="container justify-between py-14">
+          <div class="flex flex-col items-center gap-6 lg:flex-row lg:gap-0">
+            <aside class="text-center lg:text-left">
+              <h3
                 class="font-bold"
                 data-aos="fade-right"
                 data-aos-duration="1000"
-                data-aos-delay="100"
-                data-aos-anchor="#passionate"
               >
-                Welcome to Compassionate Healthcare
-              </h2>
-              <p
-                class="mt-7 text-gray-light"
-                data-aos="fade-right"
-                data-aos-duration="1000"
-                data-aos-delay="200"
-                data-aos-anchor="#passionate"
-              >
-                From preventive medicine to specialized treatments, we
-                prioritize your health journey. With cutting-edge technology and
-                compassionate professionals, we strive to ensure every step of
-                your healthcare.
+                Stay Informed
+              </h3>
+              <p data-aos="fade-right" data-aos-duration="1000">
+                Sign up for our newsletter
               </p>
-            </div>
-            <div
-              class="w-full bg-white p-10 lg:w-5/12"
-              data-aos="fade-in"
-              data-aos-duration="1000"
-              data-aos-anchor="#passionate"
-            >
-              <div
-                class="flex items-center gap-5"
+            </aside>
+
+            <aside class="relative flex w-full lg:ml-auto lg:w-2/4">
+              <input
+                type="text"
+                class="w-full rounded bg-white p-4 text-dark placeholder:text-gray-dark focus:outline-none lg:px-4 lg:py-6"
+                placeholder="Enter Your Email Here"
                 data-aos="fade-left"
                 data-aos-duration="1000"
-                data-aos-delay="200"
-                data-aos-anchor="#passionate"
-              >
-                <div
-                  class="flex aspect-square h-16 w-16 items-center justify-center bg-primary"
-                >
-                  <img
-                    src="./assets/icons/stethoscope_arrow.svg"
-                    alt="stethoscope_arrow"
-                  />
-                </div>
-
-                <aside class="text-dark">
-                  <h5 class="font-bold">Patient-Centered Experience:</h5>
-                  <p class="mt-2 text-gray-dark">
-                    Personalized care ensuring holistic patient well-being
-                  </p>
-                </aside>
-              </div>
+              />
               <div
-                class="mt-6 flex items-center gap-5"
-                data-aos="fade-left"
-                data-aos-duration="1000"
-                data-aos-delay="300"
-                data-aos-anchor="#passionate"
+                class="absolute bottom-0 right-1 top-0 my-auto flex h-full items-center lg:right-4"
               >
-                <div
-                  class="flex aspect-square h-16 w-16 items-center justify-center bg-primary"
+                <button
+                  class="hover:text-prborder-primary group relative h-12 w-28 overflow-hidden rounded border-2 border-primary bg-primary text-white transition duration-300 hover:text-primary lg:h-14 lg:w-36"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  data-aos-delay="300"
                 >
-                  <img src="./assets/icons/skeleton.svg" alt="skeleton" />
-                </div>
-
-                <aside class="text-black">
-                  <h5 class="font-bold">Integrated Healthcare Experience</h5>
-                  <p class="mt-2 text-gray-dark">
-                    Seamless, coordinated care across multiple health services.
-                  </p>
-                </aside>
+                  <span
+                    class="absolute bottom-0 left-0 right-0 top-0 z-10 m-auto inline-flex items-center justify-center"
+                    >Subscribe</span
+                  >
+                  <div
+                    class="trnasition absolute left-0 top-0 z-0 h-full w-0 rounded-r-full bg-white transition-[width] duration-300 group-hover:w-44"
+                  ></div>
+                </button>
               </div>
-            </div>
+            </aside>
           </div>
+        </div>
+
+        <hr class="bg-gray-dark" />
+
+        <div class="container flex flex-col gap-10 py-14 lg:flex-row">
+          <div class="lg:w-4/12">
+            <img src="./assets/icons/whitelogo.svg" alt="whitelogo" />
+            <p class="mt-4">
+              We are dedicated to offering compassionate, personalized care to
+              meet your unique needs. Stay connected with us for the latest
+              updates, health tips, and more.
+            </p>
+          </div>
+
+          <div>
+            <h5 class="font-bold">Quick Links</h5>
+            <ul class="mt-4 flex flex-col gap-2">
+              <li><a href="#"> Home </a></li>
+              <li><a href="#"> About </a></li>
+              <li><a href="#"> Services </a></li>
+              <li><a href="#"> Why Choose Us </a></li>
+              <li><a href="#"> Testimonials </a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h5 class="font-bold">Contact</h5>
+            <ul class="mt-4 flex flex-col gap-2">
+              <li class="flex items-center gap-3">
+                <div class="flex aspect-square w-4 items-center justify-center">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <a href="#" class="transition hover:opacity-75"
+                  >Saint Paul, MN 55112-6629 USA</a
+                >
+              </li>
+              <li class="flex items-center gap-3">
+                <div class="flex aspect-square w-4 items-center justify-center">
+                  <i class="fas fa-phone rotate-90"></i>
+                </div>
+                <a href="#" class="transition hover:opacity-75">833-900-8338</a>
+              </li>
+              <li class="flex items-center gap-3">
+                <div class="flex aspect-square w-4 items-center justify-center">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <a
+                  href="mailto:support@raddito.com"
+                  class="transition hover:opacity-75"
+                  >support@raddito.com</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h5 class="font-bold">Contact</h5>
+            <ul class="mt-4 flex flex-col gap-2">
+              <li>
+                <a
+                  class="flex items-center gap-2 transition hover:opacity-60"
+                  href="#"
+                >
+                  <div
+                    class="flex aspect-square w-5 items-end justify-center rounded bg-white text-primary"
+                  >
+                    <i class="fa fa-facebook"></i>
+                  </div>
+                  <span class="font-semibold">Facebook</span>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="flex items-center gap-2 transition hover:opacity-60"
+                  href="#"
+                >
+                  <div
+                    class="flex aspect-square w-5 items-center justify-center rounded bg-white text-primary"
+                  >
+                    <i class="fa fa-twitter text-xs"></i>
+                  </div>
+                  <span class="font-semibold">Twitter</span>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="flex items-center gap-2 transition hover:opacity-60"
+                  href="#"
+                >
+                  <div
+                    class="flex aspect-square w-5 items-center justify-center rounded bg-white text-primary"
+                  >
+                    <i class="fa fa-linkedin text-xs"></i>
+                  </div>
+                  <span class="font-semibold">LinkedIn</span>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="flex items-center gap-2 transition hover:opacity-60"
+                  href="#"
+                >
+                  <div
+                    class="flex aspect-square w-5 items-center justify-center rounded bg-white text-primary"
+                  >
+                    <i class="fa fa-instagram"></i>
+                  </div>
+                  <span class="font-semibold">Instagram</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+      <div class="bg-dark py-6 text-center text-white">
+        <div class="container">
+          Copyright ©<span id="year"></span> Designed & Developed by
+          <a href="https://raddito.net/" target="_blank" class="font-semibold"
+            >Raddito LLC</a
+          >.
         </div>
       </div>
-    </section>
-
-    <!-- Services Section -->
-
-    <section>
-      <div
-        class="container flex flex-col items-center gap-20 py-14 lg:flex-row lg:py-28"
-        id="services"
-      >
-        <div class="order-2 w-full lg:order-1 lg:w-5/12">
-          <div class="grid grid-cols-2 gap-5">
-            <div
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-              data-aos-anchor="#services"
-            >
-              <div
-                class="group flex aspect-square flex-col items-center justify-center gap-3 rounded-md text-center shadow-[0_3px_32px_0_#0000000A] transition duration-300 hover:bg-primary hover:text-white hover:shadow-[0_3px_32px_0_#0067FF3D]"
-              >
-                <svg
-                  width="34"
-                  height="32"
-                  viewBox="0 0 34 32"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M16.6255 24.9456L10.3816 30.8831C9.74329 31.4901 8.96627 31.7936 8.05049 31.7936C7.13471 31.7936 6.35768 31.4901 5.71941 30.8831L0.974007 26.3706C0.335737 25.7637 0.0166016 25.0248 0.0166016 24.154C0.0166016 23.2831 0.335737 22.5443 0.974007 21.9373L7.21796 15.9998L0.974007 10.0623C0.335737 9.45536 0.0166016 8.71647 0.0166016 7.84564C0.0166016 6.97481 0.335737 6.23592 0.974007 5.62897L5.71941 1.11647C6.35768 0.509527 7.13471 0.206055 8.05049 0.206055C8.96627 0.206055 9.74329 0.509527 10.3816 1.11647L16.6255 7.05397L22.8695 1.11647C23.5077 0.509527 24.2848 0.206055 25.2005 0.206055C26.1163 0.206055 26.8933 0.509527 27.5316 1.11647L32.277 5.62897C32.9153 6.23592 33.2344 6.97481 33.2344 7.84564C33.2344 8.71647 32.9153 9.45536 32.277 10.0623L26.0331 15.9998L32.277 21.9373C32.9153 22.5443 33.2344 23.2831 33.2344 24.154C33.2344 25.0248 32.9153 25.7637 32.277 26.3706L27.5316 30.8831C26.8933 31.4901 26.1163 31.7936 25.2005 31.7936C24.2848 31.7936 23.5077 31.4901 22.8695 30.8831L16.6255 24.9456ZM16.6255 14.4165C17.0973 14.4165 17.4927 14.2647 17.8119 13.9613C18.131 13.6578 18.2906 13.2817 18.2906 12.8331C18.2906 12.3845 18.131 12.0085 17.8119 11.705C17.4927 11.4015 17.0973 11.2498 16.6255 11.2498C16.1537 11.2498 15.7583 11.4015 15.4392 11.705C15.12 12.0085 14.9605 12.3845 14.9605 12.8331C14.9605 13.2817 15.12 13.6578 15.4392 13.9613C15.7583 14.2647 16.1537 14.4165 16.6255 14.4165ZM9.54903 13.7831L14.2944 9.27064L8.05049 3.33314L3.30508 7.84564L9.54903 13.7831ZM13.2954 17.5831C13.7672 17.5831 14.1626 17.4314 14.4818 17.1279C14.8009 16.8245 14.9605 16.4484 14.9605 15.9998C14.9605 15.5512 14.8009 15.1752 14.4818 14.8717C14.1626 14.5682 13.7672 14.4165 13.2954 14.4165C12.8236 14.4165 12.4282 14.5682 12.1091 14.8717C11.7899 15.1752 11.6304 15.5512 11.6304 15.9998C11.6304 16.4484 11.7899 16.8245 12.1091 17.1279C12.4282 17.4314 12.8236 17.5831 13.2954 17.5831ZM16.6255 20.7498C17.0973 20.7498 17.4927 20.5981 17.8119 20.2946C18.131 19.9911 18.2906 19.6151 18.2906 19.1665C18.2906 18.7179 18.131 18.3418 17.8119 18.0383C17.4927 17.7349 17.0973 17.5831 16.6255 17.5831C16.1537 17.5831 15.7583 17.7349 15.4392 18.0383C15.12 18.3418 14.9605 18.7179 14.9605 19.1665C14.9605 19.6151 15.12 19.9911 15.4392 20.2946C15.7583 20.5981 16.1537 20.7498 16.6255 20.7498ZM19.9556 17.5831C20.4274 17.5831 20.8228 17.4314 21.142 17.1279C21.4611 16.8245 21.6207 16.4484 21.6207 15.9998C21.6207 15.5512 21.4611 15.1752 21.142 14.8717C20.8228 14.5682 20.4274 14.4165 19.9556 14.4165C19.4839 14.4165 19.0884 14.5682 18.7693 14.8717C18.4501 15.1752 18.2906 15.5512 18.2906 15.9998C18.2906 16.4484 18.4501 16.8245 18.7693 17.1279C19.0884 17.4314 19.4839 17.5831 19.9556 17.5831ZM18.9566 22.729L25.2005 28.6665L29.9459 24.154L23.702 18.2165L18.9566 22.729Z"
-                    class="fill-primary transition duration-300 group-hover:fill-white"
-                  />
-                </svg>
-                <h5
-                  class="font-semibold text-dark transition duration-300 group-hover:text-white"
-                >
-                  Primary Care
-                </h5>
-                <p
-                  class="text-gray-dark transition duration-300 group-hover:text-white"
-                >
-                  Our dedicated team of medical experts
-                </p>
-              </div>
-            </div>
-
-            <div
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-              data-aos-anchor="#services"
-              data-aos-delay="200"
-            >
-              <div
-                class="group flex aspect-square flex-col items-center justify-center gap-3 rounded-md text-center shadow-[0_3px_32px_0_#0000000A] transition duration-300 hover:bg-primary hover:text-white hover:shadow-[0_3px_32px_0_#0067FF3D]"
-              >
-                <svg
-                  width="34"
-                  height="29"
-                  viewBox="0 0 34 29"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M0.465332 8.24992V3.49992C0.465332 2.62909 0.791405 1.8836 1.44355 1.26346C2.0957 0.643321 2.87966 0.333252 3.79544 0.333252H30.4363C31.3521 0.333252 32.136 0.643321 32.7882 1.26346C33.4403 1.8836 33.7664 2.62909 33.7664 3.49992V12.2083H30.4363V3.49992H3.79544V8.24992H0.465332ZM8.7906 20.9166C8.48534 20.9166 8.19396 20.844 7.91645 20.6989C7.63894 20.5537 7.43081 20.336 7.29205 20.0458L4.41983 14.5833H0.465332V11.4166H5.46049C5.76575 11.4166 6.05714 11.4892 6.33465 11.6343C6.61216 11.7794 6.82029 11.9971 6.95904 12.2874L8.7906 15.7708L13.9523 5.95409C14.091 5.6902 14.2992 5.49228 14.5767 5.36034C14.8542 5.22839 15.1456 5.16242 15.4508 5.16242C15.7561 5.16242 16.0475 5.22839 16.325 5.36034C16.6025 5.49228 16.8106 5.6902 16.9494 5.95409L19.7383 11.2583C19.2388 11.5485 18.7601 11.852 18.3022 12.1687C17.8443 12.4853 17.4211 12.8416 17.0326 13.2374L15.4508 10.2291L10.2891 20.0458C10.1504 20.336 9.94226 20.5537 9.66475 20.6989C9.38725 20.844 9.09586 20.9166 8.7906 20.9166ZM14.9097 25.6666H3.79544C2.87966 25.6666 2.0957 25.3565 1.44355 24.7364C0.791405 24.1162 0.465332 23.3708 0.465332 22.4999V17.7499H3.79544V22.4999H13.9106C13.9939 23.0541 14.1188 23.5951 14.2853 24.1228C14.4518 24.6506 14.6599 25.1652 14.9097 25.6666ZM25.4411 28.8333C23.1378 28.8333 21.1744 28.0614 19.551 26.5176C17.9276 24.9739 17.1159 23.1069 17.1159 20.9166C17.1159 18.7263 17.9276 16.8593 19.551 15.3155C21.1744 13.7718 23.1378 12.9999 25.4411 12.9999C27.7445 12.9999 29.7078 13.7718 31.3313 15.3155C32.9547 16.8593 33.7664 18.7263 33.7664 20.9166C33.7664 23.1069 32.9547 24.9739 31.3313 26.5176C29.7078 28.0614 27.7445 28.8333 25.4411 28.8333ZM25.7741 21.7083L29.5621 18.1062L28.3966 16.9978L24.6086 20.5999L25.7741 21.7083Z"
-                    class="fill-primary transition duration-300 group-hover:fill-white"
-                  />
-                </svg>
-
-                <h5
-                  class="font-semibold text-dark transition duration-300 group-hover:text-white"
-                >
-                  Diagnostic
-                </h5>
-                <p
-                  class="text-gray-dark transition duration-300 group-hover:text-white"
-                >
-                  Our dedicated team of medical experts
-                </p>
-              </div>
-            </div>
-
-            <div
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-              data-aos-anchor="#services"
-              data-aos-delay="400"
-            >
-              <div
-                class="group flex aspect-square flex-col items-center justify-center gap-3 rounded-md text-center shadow-[0_3px_32px_0_#0000000A] transition duration-300 hover:bg-primary hover:text-white hover:shadow-[0_3px_32px_0_#0067FF3D]"
-              >
-                <svg
-                  width="33"
-                  height="33"
-                  viewBox="0 0 33 33"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M10.9654 32.6251L7.63531 30.2501V23.9167H5.97026C5.05448 23.9167 4.27052 23.6067 3.61837 22.9865C2.96622 22.3664 2.64015 21.6209 2.64015 20.7501V8.87508C2.16839 8.87508 1.77294 8.72334 1.4538 8.41987C1.13467 8.1164 0.975098 7.74036 0.975098 7.29175C0.975098 6.84314 1.13467 6.4671 1.4538 6.16362C1.77294 5.86015 2.16839 5.70841 2.64015 5.70841H7.63531V3.33341H6.80279C6.33102 3.33341 5.93557 3.18168 5.61644 2.87821C5.2973 2.57473 5.13773 2.19869 5.13773 1.75008C5.13773 1.30147 5.2973 0.925429 5.61644 0.621956C5.93557 0.318484 6.33102 0.166748 6.80279 0.166748H11.7979C12.2697 0.166748 12.6652 0.318484 12.9843 0.621956C13.3034 0.925429 13.463 1.30147 13.463 1.75008C13.463 2.19869 13.3034 2.57473 12.9843 2.87821C12.6652 3.18168 12.2697 3.33341 11.7979 3.33341H10.9654V5.70841H15.9606C16.4323 5.70841 16.8278 5.86015 17.1469 6.16362C17.4661 6.4671 17.6256 6.84314 17.6256 7.29175C17.6256 7.74036 17.4661 8.1164 17.1469 8.41987C16.8278 8.72334 16.4323 8.87508 15.9606 8.87508V20.7501C15.9606 21.6209 15.6345 22.3664 14.9824 22.9865C14.3302 23.6067 13.5463 23.9167 12.6305 23.9167H10.9654V32.6251ZM5.97026 20.7501H12.6305V18.3751H9.71663C9.38362 18.3751 9.09223 18.2563 8.84248 18.0188C8.59272 17.7813 8.46784 17.5042 8.46784 17.1876C8.46784 16.8709 8.59272 16.5938 8.84248 16.3563C9.09223 16.1188 9.38362 16.0001 9.71663 16.0001H12.6305V13.6251H9.71663C9.38362 13.6251 9.09223 13.5063 8.84248 13.2688C8.59272 13.0313 8.46784 12.7542 8.46784 12.4376C8.46784 12.1209 8.59272 11.8438 8.84248 11.6063C9.09223 11.3688 9.38362 11.2501 9.71663 11.2501H12.6305V8.87508H5.97026V20.7501ZM22.6208 31.8334C21.705 31.8334 20.9211 31.5233 20.2689 30.9032C19.6168 30.2831 19.2907 29.5376 19.2907 28.6667V18.3751C19.2907 17.6098 19.4294 16.9765 19.707 16.4751C19.9845 15.9737 20.2758 15.5383 20.5811 15.1688C20.8864 14.7994 21.1639 14.5025 21.4136 14.2782C21.6634 14.0539 21.7883 13.8362 21.7883 13.6251V12.8334C21.3165 12.8334 20.9211 12.6817 20.6019 12.3782C20.2828 12.0747 20.1232 11.6987 20.1232 11.2501C20.1232 10.8015 20.2828 10.4254 20.6019 10.122C20.9211 9.81848 21.3165 9.66675 21.7883 9.66675H30.1135C30.5853 9.66675 30.9808 9.81848 31.2999 10.122C31.619 10.4254 31.7786 10.8015 31.7786 11.2501C31.7786 11.6987 31.619 12.0747 31.2999 12.3782C30.9808 12.6817 30.5853 12.8334 30.1135 12.8334V13.6251C30.1135 13.8362 30.2523 14.0737 30.5298 14.3376C30.8073 14.6015 31.1126 14.9181 31.4456 15.2876C31.7508 15.657 32.0214 16.0924 32.2573 16.5938C32.4932 17.0952 32.6111 17.689 32.6111 18.3751V28.6667C32.6111 29.5376 32.285 30.2831 31.6329 30.9032C30.9808 31.5233 30.1968 31.8334 29.281 31.8334H22.6208ZM22.6208 19.1667H29.281V18.3751C29.281 17.9792 29.1561 17.6362 28.9064 17.3459C28.6566 17.0556 28.3791 16.739 28.0738 16.3959C27.7686 16.0529 27.4772 15.6702 27.1997 15.248C26.9222 14.8258 26.7834 14.2848 26.7834 13.6251V12.8334H25.1184V13.6251C25.1184 14.2584 24.9866 14.7862 24.7229 15.2084C24.4593 15.6306 24.1748 16.0133 23.8696 16.3563C23.5643 16.6994 23.2799 17.0227 23.0162 17.3261C22.7526 17.6296 22.6208 17.9792 22.6208 18.3751V19.1667ZM22.6208 23.9167H29.281V21.5417H22.6208V23.9167ZM22.6208 28.6667H29.281V26.2917H22.6208V28.6667Z"
-                    class="fill-primary transition duration-300 group-hover:fill-white"
-                  />
-                </svg>
-
-                <h5
-                  class="font-semibold text-dark transition duration-300 group-hover:text-white"
-                >
-                  Rehabilitation
-                </h5>
-                <p
-                  class="text-gray-dark transition duration-300 group-hover:text-white"
-                >
-                  Our dedicated team of medical experts
-                </p>
-              </div>
-            </div>
-
-            <div
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-              data-aos-anchor="#services"
-              data-aos-delay="600"
-            >
-              <div
-                class="group flex aspect-square flex-col items-center justify-center gap-3 rounded-md text-center shadow-[0_3px_32px_0_#0000000A] transition duration-300 hover:bg-primary hover:text-white hover:shadow-[0_3px_32px_0_#0067FF3D]"
-              >
-                <svg
-                  width="38"
-                  height="30"
-                  viewBox="0 0 38 30"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M31.6038 20.5417L29.2311 18.325L31.0626 16.5833H25.7761V13.4167H31.021L29.2311 11.7146L31.6038 9.45833L37.4315 15L31.6038 20.5417ZM2.46535 3.91667V0.75H22.446V3.91667H2.46535ZM9.95809 23.7083H14.9532V19.75H19.1159V15H14.9532V11.0417H9.95809V15H5.79545V19.75H9.95809V23.7083ZM4.1304 29.25C3.21462 29.25 2.43066 28.9399 1.77851 28.3198C1.12637 27.6997 0.800293 26.9542 0.800293 26.0833V8.66667C0.800293 7.79583 1.12637 7.05035 1.77851 6.43021C2.43066 5.81007 3.21462 5.5 4.1304 5.5H20.7809C21.6967 5.5 22.4807 5.81007 23.1328 6.43021C23.785 7.05035 24.111 7.79583 24.111 8.66667V26.0833C24.111 26.9542 23.785 27.6997 23.1328 28.3198C22.4807 28.9399 21.6967 29.25 20.7809 29.25H4.1304ZM4.1304 26.0833H20.7809V8.66667H4.1304V26.0833Z"
-                    class="fill-primary transition duration-300 group-hover:fill-white"
-                  />
-                </svg>
-
-                <h5
-                  class="font-semibold text-dark transition duration-300 group-hover:text-white"
-                >
-                  Specialty Care
-                </h5>
-                <p
-                  class="text-gray-dark transition duration-300 group-hover:text-white"
-                >
-                  Our dedicated team of medical experts
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="order-1 w-full text-center lg:order-2 lg:w-7/12 lg:text-right"
-        >
-          <p
-            class="font-poppins font-medium text-primary"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-          >
-            Our Services
-          </p>
-          <h2
-            class="font-bold text-dark"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-          >
-            Discover Comprehensive Medical Care
-          </h2>
-
-          <p
-            class="mt-7 text-gray-dark"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-          >
-            From preventive medicine to specialized treatments, we prioritize
-            your health journey. With cutting-edge technology and compassionate
-            professionals, we strive to ensure every
-          </p>
-
-          <div
-            class="mt-12 flex items-center justify-center gap-12 lg:justify-end"
-          >
-            <label
-              class="flex cursor-pointer items-center gap-4 font-semibold"
-              data-aos="fade-left"
-              data-aos-duration="1000"
-              data-aos-delay="200"
-              for="video-check"
-            >
-              <div
-                class="flex h-8 w-8 items-center justify-center rounded-full bg-white text-primary"
-              >
-                <i class="fas fa-play-circle text-xl"></i>
-              </div>
-              Learn More
-            </label>
-
-            <button
-              class="group relative h-14 w-36 overflow-hidden rounded border-2 border-primary bg-primary px-7 py-3 text-white transition duration-300 hover:text-primary"
-              data-aos="fade-left"
-              data-aos-duration="1000"
-              data-aos-delay="300"
-            >
-              <span
-                class="absolute bottom-0 left-0 right-0 top-0 z-10 m-auto inline-flex items-center justify-center"
-                >Read More</span
-              >
-              <div
-                class="trnasition absolute right-0 top-0 z-0 h-full w-0 rounded-l-full bg-white transition-[width] duration-300 group-hover:w-40"
-              ></div>
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Testimonials Section -->
-
-    <section class="container relative mb-14 text-center">
-      <p
-        class="font-poppins font-medium text-primary"
-        data-aos="fade-right"
-        data-aos-duration="1000"
-      >
-        Testimonials
-      </p>
-
-      <h2 class="mb-6 font-bold" data-aos="fade-right" data-aos-duration="1000">
-        Our Trusted Care in Their Words
-      </h2>
-
-      <p
-        class="mx-auto mb-14 text-gray-dark lg:w-5/6"
-        data-aos="fade-right"
-        data-aos-duration="1000"
-      >
-        From preventive medicine to specialized treatments, we prioritize your
-        health journey. With cutting-edge technology and compassionate
-        professionals, we strive to ensure every
-      </p>
-
-      <div class="swiper-container">
-        <div class="swiper-wrapper p-4 !pt-0 pl-0 lg:p-10 lg:pl-4">
-          <div class="swiper-slide">
-            <div class="p-4 text-left shadow-xl lg:p-11">
-              <p>
-                The preventive care services at Discover Comprehensive Medical
-                Care have been exceptional. The regular screenings and health
-                education have really helped me maintain a healthy lifestyle
-              </p>
-
-              <div class="flex items-end justify-between">
-                <div class="mt-6 flex items-center gap-3">
-                  <img
-                    src="./assets/testimonials/testimonial-1.png"
-                    alt="testimonial-1"
-                    class="h-14 w-14"
-                  />
-                  <aside>
-                    <h5 class="font-poppins font-bold">Dohn Joenathan</h5>
-                    <p class="font-semibold text-primary lg:hidden">
-                      School Teacher
-                    </p>
-                    <div class="mt-1 flex gap-2 text-primary">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="far fa-star"></i>
-                    </div>
-                  </aside>
-                </div>
-
-                <p class="hidden font-semibold text-primary lg:block">
-                  School Teacher
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="p-4 text-left shadow-xl lg:p-11">
-              <p>
-                The preventive care services at Discover Comprehensive Medical
-                Care have been exceptional. The regular screenings and health
-                education have really helped me maintain a healthy lifestyle
-              </p>
-
-              <div class="flex items-end justify-between">
-                <div class="mt-6 flex items-center gap-3">
-                  <img
-                    src="./assets/testimonials/testimonial-2.png"
-                    alt="testimonial-1"
-                    class="h-14 w-14"
-                  />
-                  <aside>
-                    <h5 class="font-poppins font-bold">John Davis</h5>
-                    <p class="font-semibold text-primary lg:hidden">
-                      School Teacher
-                    </p>
-                    <div class="mt-1 flex gap-2 text-primary">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="far fa-star"></i>
-                    </div>
-                  </aside>
-                </div>
-
-                <p class="hidden font-semibold text-primary lg:block">
-                  School Teacher
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="p-4 text-left shadow-xl lg:p-11">
-              <p>
-                The preventive care services at Discover Comprehensive Medical
-                Care have been exceptional. The regular screenings and health
-                education have really helped me maintain a healthy lifestyle
-              </p>
-
-              <div class="flex items-end justify-between">
-                <div class="mt-6 flex items-center gap-3">
-                  <img
-                    src="./assets/testimonials/testimonial-1.png"
-                    alt="testimonial-1"
-                    class="h-14 w-14"
-                  />
-                  <aside>
-                    <h5 class="font-poppins font-bold">Dohn Joenathan</h5>
-                    <p class="font-semibold text-primary lg:hidden">
-                      School Teacher
-                    </p>
-                    <div class="mt-1 flex gap-2 text-primary">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="far fa-star"></i>
-                    </div>
-                  </aside>
-                </div>
-
-                <p class="hidden font-semibold text-primary lg:block">
-                  School Teacher
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="p-4 text-left shadow-xl lg:p-11">
-              <p>
-                The preventive care services at Discover Comprehensive Medical
-                Care have been exceptional. The regular screenings and health
-                education have really helped me maintain a healthy lifestyle
-              </p>
-
-              <div class="flex items-end justify-between">
-                <div class="mt-6 flex items-center gap-3">
-                  <img
-                    src="./assets/testimonials/testimonial-2.png"
-                    alt="testimonial-1"
-                    class="h-14 w-14"
-                  />
-                  <aside>
-                    <h5 class="font-poppins font-bold">John Davis</h5>
-                    <p class="font-semibold text-primary lg:hidden">
-                      School Teacher
-                    </p>
-                    <div class="mt-1 flex gap-2 text-primary">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="far fa-star"></i>
-                    </div>
-                  </aside>
-                </div>
-
-                <p class="hidden font-semibold text-primary lg:block">
-                  School Teacher
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="p-4 text-left shadow-xl lg:p-11">
-              <p>
-                The preventive care services at Discover Comprehensive Medical
-                Care have been exceptional. The regular screenings and health
-                education have really helped me maintain a healthy lifestyle
-              </p>
-
-              <div class="flex items-end justify-between">
-                <div class="mt-6 flex items-center gap-3">
-                  <img
-                    src="./assets/testimonials/testimonial-1.png"
-                    alt="testimonial-1"
-                    class="h-14 w-14"
-                  />
-                  <aside>
-                    <h5 class="font-poppins font-bold">Dohn Joenathan</h5>
-                    <p class="font-semibold text-primary lg:hidden">
-                      School Teacher
-                    </p>
-                    <div class="mt-1 flex gap-2 text-primary">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="far fa-star"></i>
-                    </div>
-                  </aside>
-                </div>
-
-                <p class="hidden font-semibold text-primary lg:block">
-                  School Teacher
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="p-4 text-left shadow-xl lg:p-11">
-              <p>
-                The preventive care services at Discover Comprehensive Medical
-                Care have been exceptional. The regular screenings and health
-                education have really helped me maintain a healthy lifestyle
-              </p>
-
-              <div class="flex items-end justify-between">
-                <div class="mt-6 flex items-center gap-3">
-                  <img
-                    src="./assets/testimonials/testimonial-2.png"
-                    alt="testimonial-1"
-                    class="h-14 w-14"
-                  />
-                  <aside>
-                    <h5 class="font-poppins font-bold">John Davis</h5>
-                    <p class="font-semibold text-primary lg:hidden">
-                      School Teacher
-                    </p>
-                    <div class="mt-1 flex gap-2 text-primary">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="far fa-star"></i>
-                    </div>
-                  </aside>
-                </div>
-
-                <p class="hidden font-semibold text-primary lg:block">
-                  School Teacher
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-      </div>
-    </section>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/b50fc748ca.js"
