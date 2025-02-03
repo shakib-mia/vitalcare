@@ -60,7 +60,7 @@ const handleVideo = (checked) => {
 
   if (checked) {
     iframe.src =
-      "https://www.youtube.com/embed/xcJtL7QggTI?si=YN9q7bMgyNle6d7Z";
+      "https://www.youtube.com/embed/Os1oDqefGOA?si=ZNoNK5qI3_0xqDn8";
   } else {
     setTimeout(() => (iframe.src = ""), 1000);
   }
